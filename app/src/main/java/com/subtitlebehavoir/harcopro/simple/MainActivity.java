@@ -41,7 +41,7 @@ public class MainActivity extends AppCompatActivity implements AppBarLayout.OnOf
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         collapsingToolbarLayout.setTitle(" ");
-        
+
         toolbarHeaderView.bindTo("Some Title", "Subtitle");
         floatHeaderView.bindTo("Some Title", "Subtitle");
 
